@@ -1,198 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doctors Plaza</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 
     <!-- CSS  -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/css/owl.theme.default.css">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/css/owl.theme.default.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="/css/jquery-ui.css"> -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">
-            <img src="/img/logo 2.jpg" class="d-inline-block align-top"
-                alt="Doctor Plaza" />
-            <!-- <span>Doctors Plaza</span> -->
-        </a>
-    
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link nav-link-menu" href="/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-menu" href="#aboutus">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-menu" href="#services">Services</a>
-                </li>
-    
-                <li class="nav-item">
-                    <a class="nav-link nav-link-menu" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="/">
+        <span>Doctors Plaza</span>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link nav-link-menu" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-menu" href="#aboutus">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-menu" href="#services">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link nav-link-menu" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Slider  -->
     <section class="w3l-banner-slider-main">
-        <div class="bannerhny-content">
-            <!-- Banner slider -->
-            <div class="content-baner-inf">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="container">
-                                <div class="carousel-caption">
-                                    <h3 class="caro_h3">ICT Consultancy Services</h3>
-                                    <p>
-                                        Staying up-to-date is a pro-active requirement for ICT
-                                        Business Consulting
-                                    </p>
-                                    <div class="d-flex">
-                                        <a href="#services" class="banner-btn btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item item2">
-                            <div class="container">
-                                <div class="carousel-caption">
-                                    <h3 class="caro_h3_2">Enterprise Service Offerings</h3>
-                                    <p>
-                                        Developing point solutions that solve individual business
-                                        processes
-                                    </p>
-                                    <div class="d-flex">
-                                        <a href="#services" class="banner-btn btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item item3">
-                            <div class="container">
-                                <div class="carousel-caption">
-                                    <h3 class="caro_h3_2">Surveillance Cameras Service</h3>
-                                    <p>
-                                        Secure your tomorrow, Today! Allows you to monitor your
-                                        office, factory or residence etc.
-                                    </p>
-                                    <div class="d-flex">
-                                        <a href="#services" class="banner-btn btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div class="bannerhny-content">
+        <!-- Banner slider -->
+        <div class="content-baner-inf">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h3 class="caro_h3">Total Health Care</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="d-flex">
+                      <a href="#services" class="banner-btn btn">Read More</a>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                  </div>
                 </div>
+              </div>
+              <div class="carousel-item item2">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h3 class="caro_h3_2">Serve Beyond <span>Expectation</span></h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="d-flex">
+                      <a href="#services" class="banner-btn btn">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item item3">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h3 class="caro_h3_2">Your New Smile</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="d-flex">
+                      <a href="#services" class="banner-btn btn">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-    
-            
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About Us - Overview -->
     <section class="container py-5 overview">
-        <div class="row">
-            <div class="col-md-6 mb-4">
-                <div class="header-title">
-                    <span class="sub-title">Overview</span>
-                    <h3 class="hny-title text-left">Doctors Plaza</h3>
-                </div>
-                <div class="mt-3 mb-3 text-justify">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, officiis, reprehenderit voluptatum sit, impedit quo esse assumenda at quibusdam est dolorum id laboriosam ipsum. Molestiae voluptatibus alias fuga neque repellat?
-                        Cum iure sapiente voluptatem reiciendis numquam asperiores!
-                    </p>
-                    <div></div>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam necessitatibus quod esse neque qui harum veritatis laborum dolorem laboriosam adipisci dicta vel, deserunt saepe modi hic quam? Eius, pariatur?
-                    </p>
-                </div>
-                <div>
-                    <a href="#!" class="btn btn-success btn-sm">Book Now</a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="pos-center">
-                    <img src="/img/about-into.jpg" class="img-fluid rounded mt-4"
-                        alt="Doctors Plaza" />
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="header-title">
+            <span class="sub-title">Overview</span>
+            <h3 class="hny-title text-left">Doctors Plaza</h3>
+          </div>
+          <div class="mt-3 mb-3 text-justify">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+              officiis, reprehenderit voluptatum sit, impedit quo esse assumenda
+              at quibusdam est dolorum id laboriosam ipsum. Molestiae
+              voluptatibus alias fuga neque repellat? Cum iure sapiente
+              voluptatem reiciendis numquam asperiores!
+            </p>
+            <div></div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam
+              necessitatibus quod esse neque qui harum veritatis laborum dolorem
+              laboriosam adipisci dicta vel, deserunt saepe modi hic quam? Eius,
+              pariatur?
+            </p>
+          </div>
+          <div>
+            <a href="#!" class="btn btn-success btn-sm">Book Now</a>
+          </div>
         </div>
+        <div class="col-md-6">
+          <div class="pos-center">
+            <img
+              src="/img/appointment.jpg"
+              class="img-fluid rounded mt-4"
+              alt="Doctors Plaza"
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Services -->
-    <section class="container py-5 overview">
-        <div class="row mb-4">
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="/img/s4.jpg" alt="" class="card-img">
-                </div>
-            </div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
+    <section class="container overview">
+      <div class="row mb-4">
+        <div class="col-md-3 mb-5">
+          <div class="header-title mt-lg-5 pos-center-1 xl-mt-6">
+            <span class="sub-title">Our Specialties</span>
+            <h3 class="hny-title">Services</h3>
+          </div>
         </div>
+        <div class="col-md-3 mb-3">
+          <div class="card border-0">
+            <img src="/img/s4.jpg" alt="" class="card-img rounded-circle" />
+            <h4 class="mt-3 text-center">Orthopedic Specialists</h4>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card border-0">
+            <img src="/img/s4.jpg" alt="" class="card-img rounded-circle" />
+            <h4 class="mt-3 text-center">Pediatrics Specialists</h4>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card border-0">
+            <img src="/img/s4.jpg" alt="" class="card-img rounded-circle" />
+            <h4 class="mt-3 text-center">Medical Specialists</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card border-0">
+            <img src="/img/s4.jpg" alt="" class="card-img rounded-circle" />
+            <h4 class="mt-3 text-center">
+              Obstetrics and Gynecology Specialists
+            </h4>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card border-0">
+            <img src="/img/s4.jpg" alt="" class="card-img rounded-circle" />
+            <h4 class="mt-3 text-center">Urology Specialists</h4>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card border-0">
+            <img src="/img/s4.jpg" alt="" class="card-img rounded-circle" />
+            <h4 class="mt-3 text-center">Radiology Services</h4>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card border-0">
+            <img src="/img/s4.jpg" alt="" class="card-img rounded-circle" />
+            <h4 class="mt-3 text-center">Ultrasound</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature 01  -->
+    <section class="py-5 feature-stats mt-lg-5">
+      <div class="container text-dark">
+        <div class="row container">
+          <div class="col-md-12 mb-4">
+            <h3>
+              <span class="stats-h3-1">We are proud to have the</span>
+              opportunity to give you the smile
+              <span class="stats-h3-2">of your dreams.</span>
+            </h3>
+            <p class="text-justify stats-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis voluptate veniam ab earum sunt atque repellat porro
+              fugiat aperiam, praesentium quo, odit sequi et, esse assumenda
+              beatae ea iste. Assumenda.
+            </p>
+
+            <div class="row mt-4 outline text-center mt-5">
+              <div class="col-md-4 mb-3">
+                <i class="fab fa-edit fa-3x"></i>
+                <h5>Obstetrics and Gynecology</h5>
+              </div>
+              <div class="col-md-4 mb-3">
+                <i class="fab fa-edit fa-3x"></i>
+                <h5>Pediatrics</h5>
+              </div>
+              <div class="col-md-4">
+                <i class="fab fa-edit fa-3x"></i>
+                <h5>Urology</h5>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-5"></div> -->
+        </div>
+      </div>
     </section>
 
     <!-- Our Pride -->
-    <section class="container py-5 pride">
-        <div class="row container">
-            <div class="col-md-7 mb-4">
-                <h4>We are proud to have the opportunity to give you the smile of your dreams.</h4>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptate veniam ab earum sunt atque repellat porro fugiat aperiam, praesentium quo, odit sequi et, esse assumenda beatae ea iste. Assumenda.</p>
-                
-                <div class="row mt-4 outline text-center">
-                    <div class="col-md-4 mb-3">
-                        <img src="/img/Obstetrics and Gynecology.png" class="img-fluid" alt="" srcset="">
-                        <h5>Obstetrics and Gynecology</h5>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <img src="/img/leg.png" class="img-fluid" alt="" srcset="">
-                        <h5>Pediatrics</h5>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="/img/kidneys.png" class="img-fluid" alt="" srcset="">
-                        <h5>Urology</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                
-            </div>
+    <section class="py-5 mb-3 container">
+      <div class="row container">
+        <div class="col-md-7 mb-3">
+          <img src="/img/feature 2.jpg" class="img-fluid pos-center-2" alt="" />
         </div>
+        <div class="col-md-5">
+          <div class="feature-01-wrapper">
+            <h3>Feature Three</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              ipsum temporibus debitis maxime cum reiciendis libero suscipit
+              corporis sit quod dolor mollitia doloribus possimus, rem provident
+              sed in. Cupiditate, vitae?
+            </p>
+            <a href="#!" class="btn btn-sm btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Specialists  -->
+    <section class="container teams">
+      <div class="header">
+        <h3>Meet Our <span>Specialists</span></h3>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-3 mb-5">
+          <div class="card border-0 text-center">
+            <img src="/img/team1.jpg" alt="" class="card-img" />
+            <h4 class="mt-4">Olive Yew</h4>
+            <h6>Pediatrics Specialist</h6>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 text-center">
+          <div class="card border-0">
+            <img src="/img/team2.jpg" alt="" class="card-img" />
+            <h4 class="mt-4">Aida Joe</h4>
+            <h6>Orthopedic Specialist</h6>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 text-center">
+          <div class="card border-0">
+            <img src="/img/team3.jpg" alt="" class="card-img" />
+            <h4 class="mt-4">Anton Bne</h4>
+            <h6>Medical Specialist</h6>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 text-center">
+          <div class="card border-0">
+            <img src="/img/team4.jpg" alt="" class="card-img" />
+            <h4 class="mt-4">Teri Dac</h4>
+            <h6>Urology Specialist</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog   -->
+    <section class="container teams py-5">
+      <div class="header">
+        <h3>Our <span>Blog</span> Posts</h3>
+      </div>
+      <div class="row mt-5 mb-3">
+        <div class="col-md-6 mb-3">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <img src="/img/team1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Denists Against Toot Canals</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                assumenda
+              </p>
+              <div class="d-flex justify-content-between date-post mt-lg-5 mt-sm-3">
+                <div>
+                  <button class="btn btn-sm btn-info">
+                    17<sup>th</sup> March, 2022
+                  </button>
+                </div>
+                <div><span>+</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <img src="/img/team1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Treatment with Great Care</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                assumenda
+              </p>
+              <div class="d-flex justify-content-between date-post mt-lg-5  mt-sm-3">
+                <div>
+                  <button class="btn btn-sm btn-info">
+                    17<sup>th</sup> March, 2022
+                  </button>
+                </div>
+                <div><span>+</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call for action  -->
+    <section class="call-to-action">
+     <div class="container">
+       <div class="row p-4">
+         <div class="col-md-6 col-sm-6 side-1">
+          <h3>Visit Now!</h3>
+          <h6>Begin the change today</h6>
+         </div>
+         <div class="col-md-6 col-sm-6 side-2">
+           <div>
+              <a class="tel" href="tel:+255 621 894 388">+255 621 894 388</a>
+           </div>
+          <div class="">
+            <a class="btn btn-sm btn-success appointment" href="#!">Book Now</a>
+          </div>
+         </div>
+       </div>
+     </div>
+    </section>
+
+    <!-- Footer  -->
+    <section class="footer pt-4">
+      <div class="container py-4 pb-5">
+        <div class="row">
+          <div class="col-md-5 mb-4">
+            <div class="contact-info ">
+              <h4>Contact Info</h4>
+              <p class="mb-2">Address : Doctors Plaza, 5th Avenue, #06 lane street, Masaki</p>
+              <p class="mb-2">Phone Number : <a href="tel:+255 621 894 388">+255 621 894 388</a></p>
+              <p class="mb-2">Email : <a href="mailto:info@tsdc.net">info@tsdc.net</a></p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="quick-mune ">
+              <h4>Quick Links</h4>
+              <p class="mb-2"><a href="#!">Services</a></p>
+              <p class="mb-2"><a href="#!">Request Appointment</a></p>
+              <p class="mb-2"><a href="#!">About Us</a></p>
+              <p class="mb-2"><a href="#!">Medical Specialists</a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="quick-explore">
+              <h4>Explore</h4>
+              <p class="mb-2"><a href="#!">Blog Posts</a></p>
+              <p class="mb-2"><a href="#!">Privacy Policy</a></p>
+              <p class="mb-2"><a href="#!">Contact Us</a></p>
+              <p class="mb-2"><a href="#!">License & Uses</a></p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="copyright text-center mt-4">
+          <p>All Right Reserved. ©2022</p>
+        </div>
+      </div>
+      
     </section>
 
     <!-- Scripts -->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>
-    
-</body>
+  </body>
 </html>
