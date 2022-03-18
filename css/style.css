@@ -766,3 +766,20 @@ body {
 .border-top-1 {
   border-top: 1px solid;
 }
+
+.overview i {
+  color: #7bdf77;
+  padding-bottom: 15px;
+}
+
+.outline i {
+  color: #7bdf77;
+  padding-bottom: 15px;
+}
+
+.social span {
+  color: #e0eaf3;
+  background-color: #060d15;
+  padding: 10px;
+  border-radius: 30px;
+}
